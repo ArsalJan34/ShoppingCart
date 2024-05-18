@@ -3,15 +3,15 @@ public class Main {
         ShoppingCart cart = new ShoppingCart();
 
         cart.addItem(new Item("Apple", 0.99, 3));
-        cart.addItem(new Item("Banana", 0.59, 5));
+        cart.addItem(new Item("Shirt", 0.59, 5));
         cart.addItem(new Item("Orange", 1.29, 2));
 
         System.out.println("Cart after adding items:");
         cart.showCart();
 
-        cart.removeItem("Banana");
+        cart.removeItem("Shirt");
 
-        System.out.println("\nCart after removing Bananas:");
+        System.out.println("\nCart after removing Shirt:");
         cart.showCart();
     }
 }
